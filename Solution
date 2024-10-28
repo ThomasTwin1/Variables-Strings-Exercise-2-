@@ -1,0 +1,68 @@
+# Understanding Variable Assignment and Output
+# What is a variable in Python, and what kinds of values can it store?
+# Answer: A variable is a container that stores values such as integers, floats, booleans, list and strings.
+
+# Given name = "Alice", what will print(name) output?
+# Answer: Alice
+
+# What is the difference between print(first_name) and print("first_name") in Python?
+# Answer: first_name is a variable and "first_name is a string.
+
+
+# Using F-Strings for Output
+# How would you print the variable first_name within a sentence using an f-string, such as "Hello, Sherrard!"?
+# Answer:
+first_name = "Sherrard"
+print(f"Hello, {first_name}!")
+
+
+# Types of String Content
+# What types of characters can strings contain in Python? Give examples of each (letters, numbers, symbols, punctuation, emojis, whitespace).
+# Answer: strings can contain letters, numbers, symbols, punctuation, emojis, and whitespace
+# letters- A,B,C | a,b,c
+# numbers- 1,2,3 | 1.0, 2.0, 3.0
+# symbols- ^@#$%
+# punctuation- .!?
+# emojis- 😀😁😂🤣😃😄
+whitespace =  "   Hello   " + "\n\tnew user"
+print(whitespace)
+
+# Define and give an example of a "whitespace" character.
+#answer: Whitespace is the intentional empty space between characters or blank space on a line normally executed by
+# using the space bar, tab or enter key.
+city = "     boston    "
+print(city)
+
+# Why is it considered best practice to use double quotation marks for strings in Python?
+# Answer: Because some strings use words that have apostrophe which makes it difficult to tell where a string ends
+# resulting in an error message.
+# Example:
+# print('Sherrard's python course') # results in error message
+# print("Sherrard's python course") # results- Sherrard's python course
+
+# Experimenting with Different String Values
+# If message = "Hello! 😀", what will print(message) output?
+# Answer:
+message = "Hello! 😀"
+print(message)
+
+# Create a variable welcome_message and assign it the value "Welcome to Python!" using single quotes.
+# Print the value of welcome_message.
+welcome_message = 'Welcome to Python!'
+print(welcome_message)
+
+# Character Types
+# Define what a "character" is in Python and give examples of:
+# Answer: A character is any key on a computer keyboard that results in text or space
+
+# Alphanumeric characters
+# Example: A,B,C
+
+# Special characters
+# Example: @#$
+
+# Whitespace characters
+# Example: space bar, tab or enter key
+
+# Note to self
+# Need to find a way to print individual lines of code
